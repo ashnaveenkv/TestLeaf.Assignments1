@@ -1,0 +1,60 @@
+Class File : Calculator
+
+package week1.say1.assignments2;
+
+public class Calculator {
+
+	public void add(int num1,int num2,int num3) {
+		// TODO Auto-generated method stub
+		
+	   int	sum = num1+num2+num3;
+	   //return sum;
+	   System.out.println("The sum is :" +sum );
+	}
+	
+	
+	public void sub(int num1,int num2) {
+		// TODO Auto-generated method stub
+		
+	   int	minus = num1-num2;
+	   //return sum;
+	   System.out.println("The difference of two numbers is " +minus );
+	}
+	
+	
+	public void mul(int num1,int num2) {
+		// TODO Auto-generated method stub
+		
+	   int	multi = num1*num2;
+	   System.out.println("The multiplication of two numbers is " +multi );
+	}
+	
+	public void div(float num1,float num2) {
+		// TODO Auto-generated method stub
+		
+	   float divison = num1/num2;
+	   System.out.println("The remainder of two numbers is " +divison );
+	}
+	
+}
+
+
+Class : MyCalc
+
+package week1.say1.assignments2;
+
+public class MyCalc {
+
+	public static void main(String[] args) {
+		
+		Calculator obj = new Calculator();
+		obj.add(10, 20, 30);
+		obj.sub(20, 10);
+		obj.mul(10, 10);
+		obj.div(20, 11);
+		
+	}
+	
+	
+	
+}
