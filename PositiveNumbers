@@ -1,0 +1,21 @@
+package week1.say1.assignments2;
+
+public class PositiveNumbers {
+	
+	public static void main(String[] args) {
+		
+		int num = -40;
+		int zero =0;
+				
+		if (num < zero)
+		{
+			int positive = num * (-1);
+			System.out.println("The negative number" +num +" is converted to " +positive);
+			
+		}
+		
+	}
+	
+
+
+}
